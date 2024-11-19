@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; 
+    background-color: lightgray;
+    height: 100%;
+    background-image: url(Premium\ Vector\ _\ Abstract\ splashed\ watercolor\ textured\ background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar {
+    background-color: white;
+    overflow: hidden; 
+    box-shadow: 0 0 10px purple;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 0px 30px; 
+    margin-bottom: 50px;
+    background-image:url("Space Backgrounds Vol_14 Graphic by freezerondigital · Creative Fabrica.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+
+.navbar ul {
+    list-style-type: none; 
+    margin: 0px;
+    padding: 2px;
+    display: flex; 
+    flex-grow: 1; 
+    justify-content: center; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+   
+    
+}
+
+.navbar li {
+    margin: 0 15px; 
+}
+
+.navbar li a {
+    display: block; 
+    color: white; 
+    text-align: center; 
+    padding: 20px 16px; 
+    text-decoration: none; 
+}
+
+.navbar li a:hover {
+    color: lightblue; 
+}
+
+
+#text{
+    font-size: 40px;
+    text-align:center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+    
+    
+}
+
+#footer {
+    height:20vh;
+    width:100%;
+    background-image:url("Space Backgrounds Vol_14 Graphic by freezerondigital · Creative Fabrica.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+  margin-top: 130px;
+  padding: 2px;
+
+}
+
+#footer h2{
+       color: white;
+       font-size: 20px;
+     
+       
+}
+
+#footer p{
+    font-size: 18px;
+    color:white;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.button {
+    padding: 1em 2em;
+    border: none;
+    border-radius: 5px;
+    font-family: Cambria;
+    font-weight: bold;
+    cursor: pointer;
+    color: rgb(7, 7, 7);
+    transition: all 1000ms;
+    font-size: 15px;
+    position: relative;
+    overflow: hidden;
+    outline: 2px solid rgb(16, 16, 16);
+    box-shadow: purple;
+  }
+  
+  button:hover {
+    color: rgb(20, 19, 19);
+    transform: scale(1.1);
+    outline: 2px solid black;
+    box-shadow: 4px 5px 17px -4px purple;
+  }
+  
+  button::before {
+    content: "";
+    position: absolute;
+    left: -50px;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: rgb(241, 239, 239);
+    transform: skewX(45deg);
+    z-index: -1;
+    transition: width 1000ms;
+  }
+  
+  button:hover::before {
+    width: 250%;
+  }
+
+  #container{
+     margin-top: 200px;
+  }
+  #button{
+    margin-left: 670px;
+  }

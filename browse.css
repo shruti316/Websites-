@@ -1,0 +1,183 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; 
+    background-image: url(SƠN\ HIỆU\ ỨNG\ BÊ\ TÔNG\ -\ LU01BG4.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.navbar {
+    background-color: white;
+    overflow: hidden; 
+    box-shadow: 0 0 10px purple;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+    padding: 0px 30px; 
+    margin-bottom: 50px;
+    background-image:url("Space Backgrounds Vol_14 Graphic by freezerondigital · Creative Fabrica.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+
+.navbar ul {
+    list-style-type: none; 
+    margin: 0px;
+    padding: 2px;
+    display: flex; 
+    flex-grow: 1; 
+    justify-content: center; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+   
+    
+}
+
+.navbar li {
+    margin: 0 15px; 
+}
+
+.navbar li a {
+    display: block; 
+    color: white; 
+    text-align: center; 
+    padding: 20px 16px; 
+    text-decoration: none; 
+}
+
+.navbar li a:hover {
+    color: lightblue; 
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 10px; 
+}
+
+.box {
+    padding: 20px;
+    text-align: center;
+}
+.box img{
+    height: 400px;
+    width: 300px
+}
+#heading1{
+    margin: 0 40px  0 ;
+    font-family: Cambria;
+    font-size: 20px;
+    
+}
+.container1{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 10px; 
+}
+
+.box{
+    padding: 20px;
+    text-align: center;
+}
+.box img{
+    height: 400px;
+    width: 300px
+}
+#heading2{
+    margin: 0 40px  0 ;
+    font-family: Cambria;
+    font-size: 20px;
+    
+}
+
+.container2{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 10px; 
+}
+
+.box{
+    padding: 20px;
+    text-align: center;
+}
+.box img{
+    height: 400px;
+    width: 300px
+}
+#heading3{
+    margin: 0 40px  0 ;
+    font-family: Cambria;
+    font-size: 20px;
+    
+}
+
+.container3{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 10px; 
+}
+
+.box{
+    padding: 20px;
+    text-align: center;
+}
+.box img{
+    height: 400px;
+    width: 300px
+}
+#heading4{
+    margin: 0 40px  0 ;
+    font-family: Cambria;
+    font-size: 20px;
+    
+}
+
+.container4{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 10px; 
+}
+
+.box{
+    padding: 20px;
+    text-align: center;
+}
+.box img{
+    height: 400px;
+    width: 300px
+}
+#heading5{
+    margin: 0 40px  0 ;
+    font-family: Cambria;
+    font-size: 20px;
+    
+}
+
+#footer {
+    height:20vh;
+    width:100%;
+    background-image:url("Space Backgrounds Vol_14 Graphic by freezerondigital · Creative Fabrica.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    padding:2px;
+    
+
+}
+
+#footer h2{
+       color: white;
+       
+       
+}
+
+#footer p{
+    color:white;
+}
+

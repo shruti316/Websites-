@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; 
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(download\ \(2\).jpg);
+}
+
+
+.navbar {
+    background-color: white;
+    overflow: hidden; 
+    box-shadow: 0 0 10px purple;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 0px 30px; 
+    margin-bottom: 50px;
+    background-image:url("Space Backgrounds Vol_14 Graphic by freezerondigital · Creative Fabrica.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+
+.navbar ul {
+    list-style-type: none; 
+    margin: 0px;
+    padding: 2px;
+    display: flex; 
+    flex-grow: 1; 
+    justify-content: center; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+   
+    
+}
+
+.navbar li {
+    margin: 0 15px; /* Add space between nav items */
+}
+
+.navbar li a {
+    display: block; /* Make links fill the entire list item */
+    color: white; /* White text color */
+    text-align: center; /* Center the text */
+    padding: 20px 16px; /* Add padding */
+    text-decoration: none; /* Remove underline */
+}
+
+.navbar li a:hover {
+    color: lightblue; /* Change text color on hover */
+}
+
+#text h1{
+    margin: 20px; 
+    color: black; 
+    font-size: 100px;
+    font-family: CommercialScript BT;
+    font-weight: 500;
+    text-align:left;
+    margin-left: 30px;
+}
+
+#text p{
+    margin: 5px 0 0; 
+    color: rgb(12, 12, 12); 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align:left;
+    margin-bottom: 160px;
+    margin-left: 30px;
+}
+
+#footer {
+    height:20vh;
+    width:100%;
+    background-image:url("Space Backgrounds Vol_14 Graphic by freezerondigital · Creative Fabrica.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    padding: 2px;
+
+}
+
+#footer h2{
+       color: white;
+       
+       
+}
+
+#footer p{
+    color:white;
+    text-align: center;
+}
+
+
+#common {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    background-color: transparent; 
+    color: rgb(241, 235, 235);
+    padding: 0 50px;
+    margin: 155px 0; 
+}
+
+#img {
+    height: 300px; 
+    width: auto; 
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+#text {
+    flex-grow: 1; 
+    text-align: center; 
+    
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animated Button</title>
+  <style>
+    /* Button Styling */
+    .animated-btn {
+      padding: 15px 30px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #fff;
+      background-color: lightgrey;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      outline: none;
+      transition: all 0.3s ease;
+      position: relative;
+      overflow: hidden;
+      text-align: center;
+      object-position: center;
+    }
+
+    /* Hover Effect */
+    .animated-btn::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 300%;
+      height: 100%;
+      background: lightgrey;
+      transition: all 0.4s ease;
+      transform: skewX(-20deg);
+    }
+
+    .animated-btn:hover::after {
+      left: 100%;
+    }
+
+    .animated-btn:hover {
+      background-color: purple;
+    }
+  </style>
+</head>
+<body>
+
+  <button class="animated-btn">Add Stories Now</button>
+
+</body>
+</html>
